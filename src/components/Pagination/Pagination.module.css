@@ -1,0 +1,44 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: 1px solid #ddd;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:disabled {
+  color: #bbb;
+  cursor: not-allowed;
+}
+
+.btn.active {
+  font-weight: bold;
+  border-color: #7952b3;
+  background-color: #7952b3;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    padding: 2px 8px;
+    margin: 0 2px;
+    border: 1px solid #ddd;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .pagination {
+    display: flex;
+    flex-direction: column;
+  }
+}

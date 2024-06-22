@@ -1,0 +1,11 @@
+.limitInput_container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.limitInput {
+  width: 50px;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
